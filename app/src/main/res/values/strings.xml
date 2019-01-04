@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GeekWars</string>
+    <string name="in">Sign In</string>
+    <string name="out">Sign Out</string>
+    <string name="mail">Email</string>
+    <string name="pass">Password</string>
 </resources>
