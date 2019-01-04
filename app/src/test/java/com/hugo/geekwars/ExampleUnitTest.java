@@ -1,4 +1,4 @@
-package com.geekdom.geekwars;
+package com.hugo.geekwars;
 
 import org.junit.Test;
 

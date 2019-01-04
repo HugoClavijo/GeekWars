@@ -1,4 +1,4 @@
-package com.geekdom.geekwars;
+package com.hugo.geekwars;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
