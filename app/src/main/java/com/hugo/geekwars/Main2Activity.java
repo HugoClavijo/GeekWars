@@ -26,7 +26,8 @@ public class Main2Activity extends AppCompatActivity {
         mButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Main2Activity.this, "No Service", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(Main2Activity.this, "No Service", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Main2Activity.this, GameActivity.class));
             }
         });
 

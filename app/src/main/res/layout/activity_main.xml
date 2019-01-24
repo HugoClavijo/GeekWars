@@ -49,17 +49,15 @@
                 android:id="@+id/emailinput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:autofillHints="@string/mail"
                 android:backgroundTint="@color/white"
-                android:drawablePadding="10dp"
-                android:drawableStart="@drawable/letter"
                 android:fontFamily="sans-serif-light"
                 android:hint="@string/mail"
+                android:autofillHints="@string/mail"
                 android:inputType="textEmailAddress"
-                android:scaleType="fitXY"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 android:textSize="17sp" />
 
             <EditText
@@ -68,17 +66,15 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/emailinput"
                 android:layout_marginTop="30dp"
-                android:adjustViewBounds="true"
-                android:autofillHints="@string/pass"
                 android:backgroundTint="@color/white"
-                android:drawablePadding="10dp"
-                android:drawableStart="@drawable/padlock"
                 android:fontFamily="sans-serif-light"
                 android:hint="@string/pass"
+                android:autofillHints="@string/pass"
                 android:inputType="textPassword"
-                android:scaleType="fitXY"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 android:textSize="17sp" />
         </RelativeLayout>
 
@@ -93,7 +89,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
             android:background="@color/colorDarkGreen"
-            android:text="@string/out"
+            android:text="@string/reg"
             android:textColor="@color/white" />
     </RelativeLayout>
 </RelativeLayout>

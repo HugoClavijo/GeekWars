@@ -11,4 +11,6 @@
     <color name="colorAmber">#FFC400</color>
     <color name="colorDarkGreen">#080c0f</color>
     <color name="colorDarkCyan">#36b7c1</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="blue">#0091EA</color>
 </resources>
