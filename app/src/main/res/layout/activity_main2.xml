@@ -25,7 +25,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="165dp"
             android:orientation="horizontal">
 
             <Button
@@ -35,13 +35,12 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@color/colorDarkGreen"
-                android:foreground="?attr/selectableItemBackground"
                 android:drawableTop="@drawable/play"
+                android:foreground="?attr/selectableItemBackground"
                 android:paddingTop="25dp"
                 android:textAllCaps="false"
                 android:textColor="#2f2e2e"
-                android:textSize="18sp"
-                />
+                android:textSize="18sp" />
 
 
             <Button
@@ -51,8 +50,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@color/colorDarkGreen"
-                android:foreground="?attr/selectableItemBackground"
                 android:drawableTop="@drawable/score"
+                android:foreground="?attr/selectableItemBackground"
                 android:paddingTop="25dp"
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
@@ -61,7 +60,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="165dp"
             android:orientation="horizontal">
 
             <Button
@@ -71,9 +70,9 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@color/colorDarkGreen"
-                android:drawableTop="@drawable/user1"
-                android:paddingTop="25dp"
+                android:drawableTop="@drawable/profile"
                 android:foreground="?attr/selectableItemBackground"
+                android:paddingTop="25dp"
                 android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="18sp" />
