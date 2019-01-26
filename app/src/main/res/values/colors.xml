@@ -7,8 +7,8 @@
     <color name="colorSecondary">#aa00ff</color>
     <color name="colorAccent">#6ec9c0</color>
     <color name="colorRed">#ff2026</color>
-    <color name="colorWhite">#FFFFFF</color>
-    <color name="colorAmber">#FFC400</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorAmber">#ffc400</color>
     <color name="colorDarkGreen">#080c0f</color>
     <color name="colorDarkCyan">#36b7c1</color>
     <color name="lightGreen">#8BC34A</color>

@@ -35,15 +35,16 @@ public class Main2Activity extends AppCompatActivity {
         mButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Main2Activity.this, "No Service", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Main2Activity.this, scoreActivity.class));
             }
         });
 
-        Button mButton3 = (Button) findViewById(R.id.b4);
-        mButton3.setOnClickListener(new View.OnClickListener() {
+        Button mButton4 = (Button) findViewById(R.id.b4);
+        mButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Main2Activity.this, "No Service", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Main2Activity.this, userActivity.class));
+
             }
         });
     }
